@@ -1,27 +1,42 @@
-            html,
-            body,
-            container,
-            .view {
-                height: 100%;
-            }
-            
-            @media(max-width:540px) {
-                html,
-                body,
-                container,
-                .view {
-                    height: 50vh;
-                }
-            }
-            
-            h1 {
-                letter-spacing: 1px;
-            }
-            
-            .caption {
-                position: absolute;
-                bottom: 2;
-                text-align: center;
+html,
+body,
+container,
+.view {
+    height: 100%;
+}
+
+@media(max-width:540px) {
+    html,
+    body,
+    container,
+    .view {
+        height: 50vh;
+    }
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 2;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+
+/* .row {
+                display: table;
                 width: 100%;
-                color: #fff;
-            }
+            } */
+
+.col {
+    /* border: solid black 1PX; */
+    display: block;
+    width: 100%;
+    display: table-cell;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
