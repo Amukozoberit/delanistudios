@@ -45,6 +45,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
+    margin-bottom: 5px;
     /* width: 75%;
     margin-left: 100px; */
     /* justify-content: space-between; */
