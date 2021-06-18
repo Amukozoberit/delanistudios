@@ -34,9 +34,24 @@ h1 {
 
 .col {
     /* border: solid black 1PX; */
-    display: block;
     width: 100%;
     display: table-cell;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: brown;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    /* width: 75%;
+    margin-left: 100px; */
+    /* justify-content: space-between; */
+}
+
+.portfolio img {
+    flex: 1 0 20%;
+    margin: 10px;
+    height: 150px;
 }
