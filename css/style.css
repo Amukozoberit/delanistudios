@@ -53,6 +53,7 @@ h1 {
 
 .portfolio img {
     flex: 1 0 20%;
+    /* set width==20% with a 0 margin */
     margin: 10px;
     height: 150px;
 }
