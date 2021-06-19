@@ -1,5 +1,13 @@
 $(document).ready(function() {
-    $(".social img").click(function() {
-        // alert("facebook");
-    });
+    // $(".social").click(function() {
+    //     // alert("facebook");
+    //     $(".social-text").hide();
+    //     $("#div1").show();
+
+    // });
+    $(".social-text").hide();
+    $(".social").click(function() {
+        $(".social-text").hide();
+        $("#div" + $(this).attr('target')).show();
+    })
 });
