@@ -10,11 +10,16 @@ const des = document.querySelector("#design");
 const prod = document.getElementById("prod");
 // prod.innerHTML = productText;
 
-const dev = document.querySelector("#dev");
-// dev.innerHTML = developText;
 
 
 
+
+let devload = function() {
+        const dev = document.querySelector("#dev");
+        dev.innerHTML = developText;
+    }
+    // creating functions for access
+dev.addEventListener('click', devload);
 
 
 
