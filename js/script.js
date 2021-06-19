@@ -3,28 +3,35 @@ let developText = "Development content";
 let productText = "Product Text";
 
 
-
-const des = document.querySelector("#design");
-// des.innerHTML = designText;
-
-const prod = document.getElementById("prod");
-// prod.innerHTML = productText;
-
-
-
-
-
-let devload = function() {
-        const dev = document.querySelector("#dev");
+//acces the divs
+const dev = document.querySelector("#develop");
+const prod = document.getElementById("product");
+const des = document.getElementById("design");
+let devLoad = function() {
         dev.innerHTML = developText;
     }
     // creating functions for access
-dev.addEventListener('click', devload);
+
+let prodLoad = function() {
+    prod.innerHTML = productText;
+}
+
+function desLoad() {
+    des.innerHTML = designText;
+}
 
 
 
+//call the events
+des.addEventListener('click', desLoad);
+prod.addEventListener('click', prodLoad);
+dev.addEventListener('click', devLoad)
 
 
+// function allclicks(item, func) {
+//     item.addEventListener('click', func);
+// }
+// allclicks(des, )
 
 $(document).ready(function() {
     $(".social-text").hide();
