@@ -64,6 +64,10 @@ h1 {
     margin-bottom: 5px;
 }
 
+.row-t {
+    display: none;
+}
+
 form {
     padding: 30px;
 }
@@ -72,4 +76,8 @@ form {
     width: 15px;
     padding: 0;
     margin-bottom: 0;
+}
+
+.cap {
+    flex-wrap: wrap;
 }
