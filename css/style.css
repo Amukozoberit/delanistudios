@@ -70,4 +70,6 @@ form {
 
 .social-images img {
     width: 15px;
+    padding: 0;
+    margin-bottom: 0;
 }
