@@ -10,7 +10,7 @@ container,
     body,
     container,
     .view {
-        height: 50vh;
+        height: 70vh;
     }
 }
 
@@ -20,7 +20,8 @@ h1 {
 
 .caption {
     position: absolute;
-    bottom: 2;
+    bottom: 0;
+    margin: 5px;
     text-align: center;
     width: 100%;
     color: #fff;
@@ -38,7 +39,6 @@ h1 {
     display: table-cell;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: brown;
 }
 
 .portfolio {
@@ -65,9 +65,13 @@ h1 {
 }
 
 form {
-    padding: 10px;
+    padding: 30px;
 }
 
 .social img {
     width: 20px;
+}
+
+.social-text {
+    display: none;
 }
