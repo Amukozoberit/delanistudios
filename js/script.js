@@ -45,6 +45,8 @@
 
 
 $(document).ready(function() {
+
+    // https: //us6.list-manage.com/contact-form?u=f36c8b7eb4f029fbe963acd76&form_id=86b35d451b340ddc10e02fc2e237b7be
     $(".social-text").hide();
     $(".social").click(function() {
         $(".social-text").hide();
