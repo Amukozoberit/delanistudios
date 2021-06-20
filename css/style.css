@@ -95,11 +95,15 @@
                     background: transparent;
                     opacity: 1;
                 }
-                
-                .form-control {
+                /* .form-control {
                     background: transparent;
                     outline: #fff;
                     margin-bottom: 5px;
+                }
+                 */
+                
+                .form-group {
+                    outline: white !important;
                 }
                 
                 #hover-change {
@@ -120,8 +124,4 @@
                     width: 15px;
                     padding: 0;
                     margin-bottom: 0;
-                }
-                
-                input {
-                    outline: white;
                 }

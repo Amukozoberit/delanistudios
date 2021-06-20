@@ -72,6 +72,8 @@ $(document).ready(function() {
             var nameInput = $('input#mce-NAME').val();
             var emailInput = $('input#mce-EMAIL').val();
             alert("Welcome " + nameInput + ", we have recieved your details. Thank you for visiting our site. The next page shows response to your request. Enable pop ups to view confirmation.");
+            var nameInput = $('input#mce-NAME').val("");
+            var emailInput = $('input#mce-EMAIL').hide();
         })
     })
 
