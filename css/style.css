@@ -122,6 +122,6 @@
                     margin-bottom: 0;
                 }
                 
-                .cap {
-                    flex-wrap: wrap;
+                input {
+                    outline: white;
                 }
