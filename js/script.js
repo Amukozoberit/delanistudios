@@ -117,13 +117,3 @@ $(document).ready(function() {
 
 
 });
-// $(document).ready(function() {
-//     $("#work2").mouseover(function() {
-//         $('#overlay1').show();
-
-//         // alert("a");
-//     }).mouseout(function() {
-//         $('#overlay1').hide();
-//     });
-
-// });
