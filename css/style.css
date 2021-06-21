@@ -119,13 +119,23 @@
                     display: none;
                 }
                 
-                input {
+                input,
+                textarea {
                     padding: 5px;
                     margin: 5px;
-                    color: black;
-                    outline-style: solid rgb(255, 255, 255);
+                    color: white !important;
+                    width: 100%;
+                    border-color: cornsilk;
+                    /* outline: rgb(255, 255, 255) !important; */
                     background-color: rgba(0, 0, 0, 0);
                     font-family: 'Courier New', Courier, monospace;
+                }
+                
+                 ::placeholder {
+                    /* Chrome, Firefox, Opera, Safari 10.1+ */
+                    color: white;
+                    opacity: 1;
+                    /* Firefox */
                 }
                 
                 form {

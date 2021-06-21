@@ -66,15 +66,20 @@ $(document).ready(function() {
         $('#overlay7').hide();
     });
 
-    $("#submit").click(function() {
-        $("form").submit(function(event) {
-            event.preventDefault();
-            var nameInput = $('input#mce-NAME').val();
-            var emailInput = $('input#mce-EMAIL').val();
+    $("#mc-embedded-subscribe").click(function(event) {
+        // $("form").submit(function(event) {
+
+        var nameInput = $('input#mce-FNAME').val();
+        var emailInput = $('input#mce-EMAIL').val();
+        if ((nameInput !== "") && (emailInput !== "")) {
             alert("Welcome " + nameInput + ", we have recieved your details. Thank you for visiting our site. The next page shows response to your request. Enable pop ups to view confirmation.");
-            var nameInput = $('input#mce-NAME').val("");
-            var emailInput = $('input#mce-EMAIL').hide();
-        })
+            event(nameInput, emailInput);
+        } else {
+            alert("blank inputs not allowed")
+            event.preventDefault();
+        }
+        var nameInput = $('input#mce-FNAME').val("");
+        var emailInput = $('input#mce-EMAIL').val("");
     })
 
 
